@@ -1,4 +1,5 @@
-package Proyecto.src.Animales;
+package Animales;
+
 public class Perro extends Canido {
     @Override 
     public String getAlimentos(){

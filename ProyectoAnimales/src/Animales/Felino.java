@@ -1,5 +1,6 @@
-package Proyecto.src.Animales;
-public abstract class Canido extends Animal {
+package Animales;
+
+public abstract class Felino extends Animal {
     @Override 
     public String getAlimentos(){
         return null;
@@ -19,4 +20,5 @@ public abstract class Canido extends Animal {
     public String getNombreCientifico(){
         return null;
     }
+
 }
