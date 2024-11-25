@@ -45,7 +45,7 @@ public class App {
                     break;
 
                 case 4: // Imprimir por género
-                    System.out.print("Ingresa el género (M/F/O): ");
+                    System.out.print("Ingresa el género (M/F): ");
                     String generoFiltro = in.next();
                     lis301.imprimirPorGenero(generoFiltro);
                     break;
@@ -57,9 +57,6 @@ public class App {
                 case 6: // Salir
                     System.out.println("Saliendo del programa...");
                     break;
-
-                default: // Opción no válida
-                    System.out.println("Opción no válida. Inténtalo de nuevo.");
             }
         } while (opcion != 6);
 
