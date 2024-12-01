@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "SistemaPeaje/src",
+        "Proyecto_POO_Arreglos/src",
+        "ProyectoComposicion/src",
+        "AtencionMedica/src",
+        "AtencionMedica"
+    ]
+}
